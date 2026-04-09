@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.039,
+  "time": 0.035,
   "errors": [],
   "tasks": [
     {
@@ -42,13 +42,13 @@
         "scheme": "file",
         "title": "Média de permanência hospitalar.",
         "stats": {
-          "hash": "8ec856d871ab1bf102ea337752293638",
-          "bytes": 42258,
+          "hash": "ef49719b4c5702a0f5cc572be1616e8a",
+          "bytes": 42100,
           "fields": 4,
           "rows": 1446
         }
       },
-      "time": 0.031,
+      "time": 0.027,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -70,42 +70,16 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [
-        {
-          "label": "media_permanencia_setor",
-          "fieldName": "media_permanencia",
-          "fieldNumber": 4,
-          "fieldPosition": 4,
-          "labels": [
-            "unidade",
-            "ano",
-            "mes",
-            "media_permanencia_setor"
-          ],
-          "rowPositions": [
-            1
-          ],
-          "code": "incorrect-label",
-          "name": "Incorrect Label",
-          "tags": [
-            "#table",
-            "#header",
-            "#label"
-          ],
-          "note": "",
-          "message": "Label \"media_permanencia_setor\" in field media_permanencia at position \"4\" does not match the field name in the schema",
-          "description": "One of the data source header does not match the field name defined in the schema."
-        }
-      ],
+      "errors": [],
       "stats": {
-        "errors": 1
+        "errors": 0
       },
-      "valid": false
+      "valid": true
     }
   ],
   "stats": {
-    "errors": 1,
+    "errors": 0,
     "tasks": 1
   },
-  "valid": false
+  "valid": true
 }
