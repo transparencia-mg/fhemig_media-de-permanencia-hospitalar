@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.055,
+  "time": 0.04,
   "errors": [],
   "tasks": [
     {
@@ -42,13 +42,13 @@
         "scheme": "file",
         "title": "Média de permanência hospitalar.",
         "stats": {
-          "hash": "a8b51e83a7fb4ada2e1a89d95e2faaf1",
-          "bytes": 42974,
+          "hash": "999fa64328b7988922214a624ab4269f",
+          "bytes": 43420,
           "fields": 4,
-          "rows": 1476
+          "rows": 1491
         }
       },
-      "time": 0.045,
+      "time": 0.031,
       "scope": [
         "hash-count-error",
         "byte-count-error",
