@@ -8,8 +8,8 @@ resources:
     encoding: utf-8-sig
     format: csv
     hashing: md5
-    name: mp-2025
-    path: data/mp-2025.csv
+    name: mph
+    path: data/mph.csv
     profile: tabular-data-resource
     schema:
       fields:
